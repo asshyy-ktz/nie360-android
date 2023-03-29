@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".Activities.AdminPenal">
+
+    <com.chroma.app.nie360.Utils.CustomTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Processing Videos"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="4dp"
+        android:visibility="gone">
+
+        <com.chroma.app.nie360.Utils.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Upload All Pending"
+            android:textColor="@color/colorWhite"
+            android:textSize="13dp" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvProcessingVideos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ivBack"
+        android:layout_below="@+id/rl"
+        android:layout_margin="16dp"
+        android:visibility="gone">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.chroma.app.nie360.Utils.CustomTextView
+        android:id="@+id/tvNoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="There is no processing item in queue yet!"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_back"
+        android:tint="@color/colorWhite" />
+
+    <ImageView
+        android:id="@+id/ivSave"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:padding="6dp"
+        android:src="@drawable/ic_save"
+        android:tint="@color/colorWhite"
+        />
+</RelativeLayout>

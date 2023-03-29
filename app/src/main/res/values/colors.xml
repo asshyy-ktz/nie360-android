@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#484848</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#3b8121</color>
+
+    <color name="colorLightBlue">#00AAE7</color>
+    <color name="colorDarkBlue">#0072BC</color>
+
+    <color name="colorGray">#898989</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorRating">#ffd106</color>
+
+    <color name="colorGreen">#00ff00</color>
+    <color name="colorRed">#ff0000</color>
+
+    <color name="colorBlue">#072561</color>
+    <color name="colorLightGray">#d3d3d3</color>
+
+    <color name="colorHeading">#232323</color>
+
+    <color name="colorTabSelectedText">#00AAE7</color>
+    <color name="colorTabUnselectedText">#7fdcfd</color>
+
+    <color name="colorPrimaryPix">#00AAE7</color>
+    <color name="colorPrimaryLightPix">#0072BC</color>
+
+    <color name="colorBookedJobs">#dff6ff</color>
+</resources>
